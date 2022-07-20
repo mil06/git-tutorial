@@ -19,5 +19,8 @@ Steps
 6. Push your branch to origin
 7. Create a pull request to merge your branch into the main branch 
 8. To simulate a real world collaborative environment, have 1 D&A team member approve your pull request
-9. Merge your branch to main 
-    - You may run into a merge conflict if for example a fellow D&A team member is updating the same line. Try to resolve the conflict, you'll see in option in Github if one does arise. 
+9. Merge your branch to main
+
+Notes
+- If you are using http to connect to Github, you will be prompted for a username / password when push your changes. You will need to create and supply a personal access token (PAT) instead of your password. This was a change implemented by Github in 2021 to strengthen security. https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token 
+- You may run into a merge conflict if for example a fellow D&A team member is updating the same line. Try to resolve the conflict, you'll see in option in Github if one does arise. 
